@@ -15,6 +15,18 @@
 		3F5CBF9A1CFD616300B2F5DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5CBF981CFD616300B2F5DA /* LaunchScreen.storyboard */; };
 		3F5CBFA51CFD616300B2F5DA /* TTLineChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CBFA41CFD616300B2F5DA /* TTLineChartViewTests.m */; };
 		3F5CBFB01CFD616300B2F5DA /* TTLineChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CBFAF1CFD616300B2F5DA /* TTLineChartViewUITests.m */; };
+		3F5CBFC01CFD663700B2F5DA /* TTLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CBFBF1CFD663700B2F5DA /* TTLineChartView.m */; };
+		3F5CBFC31CFD680800B2F5DA /* TTLineChartIndicateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CBFC21CFD680800B2F5DA /* TTLineChartIndicateView.m */; };
+		3F78B8631D7404AC001B16C6 /* TTHistoryDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F78B8621D7404AC001B16C6 /* TTHistoryDataObject.m */; };
+		3F78B8661D740E72001B16C6 /* UIView+TTLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F78B8651D740E72001B16C6 /* UIView+TTLineChartView.m */; };
+		3F78B8801D741986001B16C6 /* img_detail_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F78B8781D741986001B16C6 /* img_detail_circle@2x.png */; };
+		3F78B8811D741986001B16C6 /* img_detail_circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F78B8791D741986001B16C6 /* img_detail_circle@3x.png */; };
+		3F78B8821D741986001B16C6 /* img_home_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F78B87A1D741986001B16C6 /* img_home_circle@2x.png */; };
+		3F78B8831D741986001B16C6 /* img_home_circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F78B87B1D741986001B16C6 /* img_home_circle@3x.png */; };
+		3F78B8841D741986001B16C6 /* img_indicate_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F78B87C1D741986001B16C6 /* img_indicate_arrow@2x.png */; };
+		3F78B8851D741986001B16C6 /* img_indicate_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F78B87D1D741986001B16C6 /* img_indicate_arrow@3x.png */; };
+		3F78B8861D741986001B16C6 /* img_indicate_rectangle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F78B87E1D741986001B16C6 /* img_indicate_rectangle@2x.png */; };
+		3F78B8871D741986001B16C6 /* img_indicate_rectangle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F78B87F1D741986001B16C6 /* img_indicate_rectangle@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,22 @@
 		3F5CBFAB1CFD616300B2F5DA /* TTLineChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTLineChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5CBFAF1CFD616300B2F5DA /* TTLineChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLineChartViewUITests.m; sourceTree = "<group>"; };
 		3F5CBFB11CFD616300B2F5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F5CBFBE1CFD663700B2F5DA /* TTLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLineChartView.h; sourceTree = "<group>"; };
+		3F5CBFBF1CFD663700B2F5DA /* TTLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLineChartView.m; sourceTree = "<group>"; };
+		3F5CBFC11CFD680800B2F5DA /* TTLineChartIndicateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLineChartIndicateView.h; sourceTree = "<group>"; };
+		3F5CBFC21CFD680800B2F5DA /* TTLineChartIndicateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLineChartIndicateView.m; sourceTree = "<group>"; };
+		3F78B8611D7404AC001B16C6 /* TTHistoryDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHistoryDataObject.h; sourceTree = "<group>"; };
+		3F78B8621D7404AC001B16C6 /* TTHistoryDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHistoryDataObject.m; sourceTree = "<group>"; };
+		3F78B8641D740E72001B16C6 /* UIView+TTLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TTLineChartView.h"; sourceTree = "<group>"; };
+		3F78B8651D740E72001B16C6 /* UIView+TTLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TTLineChartView.m"; sourceTree = "<group>"; };
+		3F78B8781D741986001B16C6 /* img_detail_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_detail_circle@2x.png"; sourceTree = "<group>"; };
+		3F78B8791D741986001B16C6 /* img_detail_circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_detail_circle@3x.png"; sourceTree = "<group>"; };
+		3F78B87A1D741986001B16C6 /* img_home_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_home_circle@2x.png"; sourceTree = "<group>"; };
+		3F78B87B1D741986001B16C6 /* img_home_circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_home_circle@3x.png"; sourceTree = "<group>"; };
+		3F78B87C1D741986001B16C6 /* img_indicate_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_indicate_arrow@2x.png"; sourceTree = "<group>"; };
+		3F78B87D1D741986001B16C6 /* img_indicate_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_indicate_arrow@3x.png"; sourceTree = "<group>"; };
+		3F78B87E1D741986001B16C6 /* img_indicate_rectangle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_indicate_rectangle@2x.png"; sourceTree = "<group>"; };
+		3F78B87F1D741986001B16C6 /* img_indicate_rectangle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_indicate_rectangle@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +129,7 @@
 		3F5CBF891CFD616300B2F5DA /* TTLineChartView */ = {
 			isa = PBXGroup;
 			children = (
+				3F5CBFBD1CFD663700B2F5DA /* TTLineChartView */,
 				3F5CBF8D1CFD616300B2F5DA /* AppDelegate.h */,
 				3F5CBF8E1CFD616300B2F5DA /* AppDelegate.m */,
 				3F5CBF901CFD616300B2F5DA /* ViewController.h */,
@@ -138,6 +167,37 @@
 				3F5CBFB11CFD616300B2F5DA /* Info.plist */,
 			);
 			path = TTLineChartViewUITests;
+			sourceTree = "<group>";
+		};
+		3F5CBFBD1CFD663700B2F5DA /* TTLineChartView */ = {
+			isa = PBXGroup;
+			children = (
+				3F78B8771D741986001B16C6 /* images */,
+				3F5CBFBE1CFD663700B2F5DA /* TTLineChartView.h */,
+				3F5CBFBF1CFD663700B2F5DA /* TTLineChartView.m */,
+				3F5CBFC11CFD680800B2F5DA /* TTLineChartIndicateView.h */,
+				3F5CBFC21CFD680800B2F5DA /* TTLineChartIndicateView.m */,
+				3F78B8611D7404AC001B16C6 /* TTHistoryDataObject.h */,
+				3F78B8621D7404AC001B16C6 /* TTHistoryDataObject.m */,
+				3F78B8641D740E72001B16C6 /* UIView+TTLineChartView.h */,
+				3F78B8651D740E72001B16C6 /* UIView+TTLineChartView.m */,
+			);
+			path = TTLineChartView;
+			sourceTree = "<group>";
+		};
+		3F78B8771D741986001B16C6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3F78B8781D741986001B16C6 /* img_detail_circle@2x.png */,
+				3F78B8791D741986001B16C6 /* img_detail_circle@3x.png */,
+				3F78B87A1D741986001B16C6 /* img_home_circle@2x.png */,
+				3F78B87B1D741986001B16C6 /* img_home_circle@3x.png */,
+				3F78B87C1D741986001B16C6 /* img_indicate_arrow@2x.png */,
+				3F78B87D1D741986001B16C6 /* img_indicate_arrow@3x.png */,
+				3F78B87E1D741986001B16C6 /* img_indicate_rectangle@2x.png */,
+				3F78B87F1D741986001B16C6 /* img_indicate_rectangle@3x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +304,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F5CBF9A1CFD616300B2F5DA /* LaunchScreen.storyboard in Resources */,
+				3F78B8801D741986001B16C6 /* img_detail_circle@2x.png in Resources */,
+				3F78B8811D741986001B16C6 /* img_detail_circle@3x.png in Resources */,
+				3F78B8871D741986001B16C6 /* img_indicate_rectangle@3x.png in Resources */,
 				3F5CBF971CFD616300B2F5DA /* Assets.xcassets in Resources */,
 				3F5CBF951CFD616300B2F5DA /* Main.storyboard in Resources */,
+				3F78B8841D741986001B16C6 /* img_indicate_arrow@2x.png in Resources */,
+				3F78B8821D741986001B16C6 /* img_home_circle@2x.png in Resources */,
+				3F78B8851D741986001B16C6 /* img_indicate_arrow@3x.png in Resources */,
+				3F78B8831D741986001B16C6 /* img_home_circle@3x.png in Resources */,
+				3F78B8861D741986001B16C6 /* img_indicate_rectangle@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +338,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5CBFC31CFD680800B2F5DA /* TTLineChartIndicateView.m in Sources */,
+				3F78B8631D7404AC001B16C6 /* TTHistoryDataObject.m in Sources */,
 				3F5CBF921CFD616300B2F5DA /* ViewController.m in Sources */,
+				3F78B8661D740E72001B16C6 /* UIView+TTLineChartView.m in Sources */,
 				3F5CBF8F1CFD616300B2F5DA /* AppDelegate.m in Sources */,
 				3F5CBF8C1CFD616300B2F5DA /* main.m in Sources */,
+				3F5CBFC01CFD663700B2F5DA /* TTLineChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +568,7 @@
 				3F5CBFB61CFD616300B2F5DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F5CBFB71CFD616300B2F5DA /* Build configuration list for PBXNativeTarget "TTLineChartViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +577,7 @@
 				3F5CBFB91CFD616300B2F5DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F5CBFBA1CFD616300B2F5DA /* Build configuration list for PBXNativeTarget "TTLineChartViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +586,7 @@
 				3F5CBFBC1CFD616300B2F5DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
